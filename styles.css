@@ -1,6 +1,9 @@
-h1,h2 {
+/* Styling for heading elements h1 and h2 */
+h1, h2 {
     color: #333;
 }
+
+/* Styling for the overall body of the page */
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +17,9 @@ body {
     justify-content: center;
     justify-items: center;
 }
-.main-container{
+
+/* Styling for the main container */
+.main-container {
     display: flex;
     align-items: center;
     margin-top: 10px;
@@ -24,6 +29,8 @@ body {
     flex-direction: column;
     padding: 10px;
 }
+
+/* Styling for the content within the main container */
 .content {
     max-width: 800px;
     padding: 20px;
@@ -34,7 +41,9 @@ body {
     display: flex;
     flex-direction: row;
 }
-.left-container{
+
+/* Styling for the left container */
+.left-container {
     display: flex;
     align-items: flex-start;
     margin-top: 10px;
@@ -44,7 +53,9 @@ body {
     flex-direction: column;
     padding: 10px;
 }
-.right-container{
+
+/* Styling for the right container */
+.right-container {
     display: flex;
     align-items: flex-start;
     margin-top: 10px;
@@ -55,13 +66,14 @@ body {
     padding: 10px;
 }
 
-
+/* Styling for input container */
 .input-container  {
     display: flex;
     align-items: center;
     margin-top: 10px;
-
 }
+
+/* Styling for gender container */
 .gender-container {
     display: flex;
     flex-direction: column;
@@ -69,7 +81,9 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.button-container{
+
+/* Styling for button container */
+.button-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -77,11 +91,13 @@ body {
     width: 100%;
 }
 
+/* Styling for text and radio input types */
 input[type="text"], input[type="radio"] {
     margin-right: 5px;
 }
 
-.butt-clear{
+/* Styling for clear button */
+.butt-clear {
     margin-top: 5px;
     padding: 2px 4px;
     background-color: #065002;
@@ -91,7 +107,9 @@ input[type="text"], input[type="radio"] {
     cursor: pointer;
     width: 100%;
 }
-.prediction-container{
+
+/* Styling for prediction container */
+.prediction-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,7 +118,9 @@ input[type="text"], input[type="radio"] {
     padding: 5px;
     width: 100%;
 }
-.saved-container{
+
+/* Styling for saved container */
+.saved-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,6 +129,8 @@ input[type="text"], input[type="radio"] {
     padding: 5px;
     width: 100%;
 }
+
+/* Styling for general button */
 button {
     margin-top: 10px;
     padding: 15px 30px;
@@ -121,9 +143,12 @@ button {
     width: 100%;
 }
 
+/* Hover effect for the button */
 button:hover {
     background-color: #001a00;
 }
+
+/* Styling for informational message */
 .info {
     display: none;
     color: white;
