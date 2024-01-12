@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Background Example</title>
+</head>
+<body>
+  <div class="main-container">
+      <div class="content">
+        <div class="left-container">
+            <h1>Mr or Mrs?</h1>
+            <div class="input-container">
+                <label for="name" style="margin-right:0.5rem;">Name:</label>
+                <input type="text" id="name" placeholder="Enter a name">
+            </div>
+            <div class="gender-container" >
+                <div>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <button id="clear-selection-butt" class="butt-clear" onclick="clearSelection()">Clear Selection</button>
+            </div>
+            <div class="button-container">
+                <button id="submit-but">Submit</button>
+                <button id="save-but">Save</button>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="prediction-container">
+                <h1>Prediction</h1>
+                <div class="api-container">
+                    <p id="gender-prediction">Gender</p>
+                    <p id="probability-prediction">Probability</p>
+                </div>
+
+            </div>
+            <div class="saved-container" id="saved-section">
+                 <h2>Saved Result</h2>
+                 <p id="saved-text">Text</p>
+                 <button id="clear-butt">Clear</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="info" id=info-section">
+        <p id="info-textbox">Info</p>
+    </div>
+  </div>
+
+</body>
+</html>
+
